@@ -2,16 +2,15 @@
 #include <stdlib.h>
 
 int main()
-{ int x,y,k,u;
+{int x,z,x1;
 scanf("%i",&x);
-scanf("%i",&y);
-for(int k=1;k<=x;k++){
-    if(k%y==0){
-        k++;
-    }
-    printf("%i ",k);
+x1=x;
+                   printf("%i  ",x1);
 
+for(int i=1;i<=x1;i++){
+        x=x*x1;
+           printf("%i  ",x);
 }
 
-    return 0;
+return 0;
 }
